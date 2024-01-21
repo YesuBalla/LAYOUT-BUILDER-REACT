@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px 5%;
+  height: 450px;
+  font-family: 'Roboto';
+}
+.navbar {
+  background-color: #e2e8f0;
+  min-width: 300px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.content-container {
+  background-color: #f1f5f9;
+  padding: 10px 20px;
+  flex-grow: 1;
+  margin: 0px 3px;
+}
+.ad {
+  border: solid 1px #64748b;
+  padding: 50px;
+  color: #64748b;
+}
+.body-headings {
+  color: #475569;
+  font-size: 17px;
+}
+.item {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 16px;
+}
+.content-text {
+  color: #64748b;
+}
+.list-items-container {
+  padding: 0px;
+  list-style-type: none;
+}
